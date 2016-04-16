@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>vivekS</title>
+ 	<link href="bootstrap.min.css" rel="stylesheet">
+
+<body>
+<div class="container">
+
+ <form class="form-signin" action="http://localhost:3000/sendData" method="POST">
+        <h2 class="form-signin-heading">Please provide the following information</h2>
+        <p>FirstName:</p>
+        <label for="inputFname" class="sr-only">FirstName</label>
+        <input type="text" name="firstName" id="inputFname" class="form-control" placeholder="FirstName" required autofocus>
+        <br>
+        <p>Last name/Family name</p>
+        <label for="LastName" class="sr-only">LastName</label>
+        <input type="text" name="lastName" id="LastName" class="form-control" placeholder="LastName/FamilyName" required>
+        <br>
+        <p>Email: </p>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" name="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <br><br>
+
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Submit Information</button>
+      </form>
+
+  </div> 
+ 
+<script src="jquery-1.8.3.min.js"></script>
+<script src="bootstrap.min.js"></script></body>
+</html>
